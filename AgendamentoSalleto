@@ -1,12 +1,12 @@
 📂 app
- ├── 📂 java/com/Salleto/agendamento
+ ├── 📂 java/com/salleto/agendamento
  │    ├── MainActivity.kt
  │    ├── TelaAgendamento.kt
  │    ├── ItemAgendamento.kt
  │    ├── 📂 database
  │    │    ├── BancoDeDados.kt
  │    │    ├── Agendamento.kt
-package com.exemplo.agendamento.database
+package com.salleto.agendamento.database
 
 data class Agendamento(
     val id: Int = 0,
